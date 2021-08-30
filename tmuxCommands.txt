@@ -1,0 +1,51 @@
+// This is a list of my commonly used tmux commands
+
+// Sessions
+
+*Attach to last session: tmux a
+
+*List sessions: tmux ls
+
+Session and Window Preview: ctrl b w
+
+Show all sessions: ctrl b s
+
+// Windows
+
+Window mode: ctrl b
+
+*Create window: ctrl b c
+
+*kRename current window: ctrl b ,
+
+Close current window: ctrl b &
+
+Previous window: ctrl b p
+
+Next window: ctrl b n
+
+Go to window 'n': ctrl b 'n'
+
+// Panes
+
+*Split pane horizontally: ctrl b %
+
+*Split pane vertically: ctrl b "
+
+Move current pane left: ctrl b {
+
+Move current pane right: ctrl b }
+
+Switch to pane with direction: ctrl b (up, down, left, right)
+
+Show pane Numbers: ctrl b q
+
+*Close current pane: ctrl b x
+
+// Help
+
+*Enter command mode: ctrl b :
+
+List key bindings: :list-keys, $ tmux list-keys
+
+Show every session, window, pane, etc: $ tmux info
