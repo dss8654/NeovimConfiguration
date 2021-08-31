@@ -1,3 +1,5 @@
+// CTRL W FOR NVIM
+// CTRL B FOR TMUX
 // This is a list of my commonly used tmux commands
 
 // Sessions
@@ -16,7 +18,7 @@ Window mode: ctrl b
 
 *Create window: ctrl b c
 
-*kRename current window: ctrl b ,
+*Rename current window: ctrl b ,
 
 Close current window: ctrl b &
 
