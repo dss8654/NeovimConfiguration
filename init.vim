@@ -4,6 +4,7 @@ set relativenumber
 set nu
 set tabstop=4 softtabstop=4
 set shiftwidth=4
+
 " change :FZF to CTRL P
 nnoremap <silent> <C-P> :FZF<CR>
 
