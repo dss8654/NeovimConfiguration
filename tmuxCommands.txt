@@ -1,5 +1,3 @@
-// CTRL W FOR NVIM
-// CTRL B FOR TMUX
 // This is a list of my commonly used tmux commands
 
 // Sessions
