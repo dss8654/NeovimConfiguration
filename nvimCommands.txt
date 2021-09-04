@@ -1,2 +1,4 @@
 Window manager: CTRL W
 
+to find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then o to switch
+
