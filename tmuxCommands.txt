@@ -1,5 +1,9 @@
 // This is a list of my commonly used tmux commands
 
+// tmux resurrect: 
+ctrl b ctrl s: save enviornment
+ctrl b ctrl r: restore enviornment
+
 // Sessions
 
 *Attach to last session: tmux a
