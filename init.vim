@@ -1,10 +1,23 @@
 " this is a comment
+
+" PLUG INS
+call plug#begin()
+
+" fuzzy finder
+Plug 'junegunn/fzf' , { 'do': { -> fzf#install() } }
+
+" intellisense, auto complete, linting, code fixing
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" END PLUG INS
+call plug#end()
+
+" essential nvim settings
 inoremap jk <Esc>
 set relativenumber
 set nu
 set tabstop=4 softtabstop=4
 set shiftwidth=4
-
 " change :FZF to CTRL P
 nnoremap <silent> <C-P> :FZF<CR>
 
@@ -16,6 +29,18 @@ set hlsearch " highlight all search results
 set ignorecase " do case insensitive searching
 set noswapfile " disable swap file
 
+" coc extensions
+let g:coc_global_extensions = [
+	\ 'coc-css',
+	\ 'coc-cssmodules',
+	\ 'coc-emmet',
+	\ 'coc-git',
+	\ 'coc-html',
+	\ 'coc-htmlhint',
+	\ 'coc-json',
+	\ 'coc-prettier',
+	\ 'coc-vimlsp',
+	\ ]
 " the following 5 lines allow for automatic vim-plug installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -28,8 +53,3 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
-
-call plug#begin()
-Plug 'junegunn/fzf' , { 'do': { -> fzf#install() } }
-
-call plug#end()
