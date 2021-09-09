@@ -1,0 +1,3 @@
+// Important git commands to remember
+
+git diff: shows the additions, removals, and changes in a file on your local machine, as opposed to the remote file version.
