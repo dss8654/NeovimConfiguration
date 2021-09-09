@@ -1,5 +1,4 @@
-" this is a comment
-
+"  this is a comment
 " PLUG INS
 call plug#begin()
 
@@ -8,6 +7,9 @@ Plug 'junegunn/fzf' , { 'do': { -> fzf#install() } }
 
 " intellisense, auto complete, linting, code fixing
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" gruvbox color scheme
+Plug 'morhetz/gruvbox'
 
 " END PLUG INS
 call plug#end()
@@ -18,8 +20,17 @@ set relativenumber
 set nu
 set tabstop=4 softtabstop=4
 set shiftwidth=4
+
+" set colorscheme to gruvbox
+colorscheme gruvbox
+highlight Normal guibg=none
+
 " change :FZF to CTRL P
-nnoremap <silent> <C-P> :FZF<CR>
+" nnoremap <silent> <C-P> :FZF<CR>
+
+" change :FZF to spacebar in normal mode
+nnoremap <silent> <space> :FZF<CR>
+"normal mode, no recursive execution, map
 
 " set scrolloff=8 " so that when you scroll down the cursor stays 8 lines above the bottom of the window
 set signcolumn=yes " apparently this col can show git info
