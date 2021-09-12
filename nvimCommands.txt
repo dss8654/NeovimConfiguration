@@ -1,5 +1,10 @@
 Window manager: CTRL W
 
+vertical split: ctrl w v
+horizontal split: ctrl w s
+close window: ctrl w c
+switch focus to window: ctrl w (j,k,h,l)
+
 To find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then o to switch
 
 // granular find and replace in the whole file
@@ -8,3 +13,5 @@ cgn: we do a change (c) on the next (selected) occurence.
 
 gf: go to file. When the cursor is on a file link, or directory link, 'gf' will take u to that file.
 ^: this will return you to the previous file.
+
+ctrl 6: go to last buffer. If you are at file 'a', and go to file 'b', you can switch back to file 'a' with this command
