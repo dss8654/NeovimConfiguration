@@ -15,3 +15,7 @@ gf: go to file. When the cursor is on a file link, or directory link, 'gf' will 
 ^: this will return you to the previous file.
 
 ctrl 6: go to last buffer. If you are at file 'a', and go to file 'b', you can switch back to file 'a' with this command
+
+// Navigation Commands
+
+(n) + G: go to line number n

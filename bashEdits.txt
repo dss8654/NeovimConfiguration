@@ -1,0 +1,4 @@
+# all edits are found at the bottom of bashrc
+
+# adding a lazygit shortcut  
+alias lg='lazygit'
