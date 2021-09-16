@@ -19,3 +19,5 @@ ctrl 6: go to last buffer. If you are at file 'a', and go to file 'b', you can s
 // Navigation Commands
 
 (n) + G: go to line number n
+
+Repeat motion command: use ';' to move forward, and ',' to move backwards. EX: 'fa', to find the first 'a' in a line, then ';' to find the next
