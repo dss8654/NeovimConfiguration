@@ -23,7 +23,6 @@ set shiftwidth=4
 
 " set colorscheme to gruvbox
 colorscheme gruvbox
-highlight Normal guibg=none
 
 " change :FZF to CTRL P
 " nnoremap <silent> <C-P> :FZF<CR>
