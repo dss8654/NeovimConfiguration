@@ -23,6 +23,8 @@ set shiftwidth=4
 
 " set colorscheme to gruvbox
 colorscheme gruvbox
+" force gruvbox to have a transparent background
+autocmd VimEnter * hi Normal ctermbg=NONE guibg=NONE
 
 " change :FZF to CTRL P
 " nnoremap <silent> <C-P> :FZF<CR>
