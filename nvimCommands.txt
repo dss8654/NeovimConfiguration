@@ -5,6 +5,9 @@ horizontal split: ctrl w s
 close window: ctrl w c
 switch focus to window: ctrl w (j,k,h,l)
 
+Search and Replace: :%s/foo/bar/gc % means across all lines, s means substitute, /foo is what to replace, 
+	/bar is replacement, g means greedy or global, c means ask y/n for each substitution
+
 To find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then o to switch
 
 // granular find and replace in the whole file
