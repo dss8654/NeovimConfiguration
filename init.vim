@@ -33,6 +33,9 @@ autocmd VimEnter * hi Normal ctermbg=NONE guibg=NONE
 nnoremap <silent> <space> :FZF<CR>
 "normal mode, no recursive execution, map
 
+nnoremap <silent> <C-H> :noh<CR>
+"normal mode, no recursive execution, map
+
 " set scrolloff=8 " so that when you scroll down the cursor stays 8 lines above the bottom of the window
 set signcolumn=yes " apparently this col can show git info
 
