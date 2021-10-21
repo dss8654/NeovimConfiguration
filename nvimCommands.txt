@@ -11,6 +11,10 @@ To find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then
 gn: same as 'n', except that it will start visual mode and select the occurence.
 cgn: we do a change (c) on the next (selected) occurence.  
 
+// Search and Replace
+:s/foo/bar/gc
+g is replace all occurences, c is to confirm each change
+
 gf: go to file. When the cursor is on a file link, or directory link, 'gf' will take u to that file.
 ^: this will return you to the previous file.
 
