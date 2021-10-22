@@ -5,7 +5,7 @@ horizontal split: ctrl w s
 close window: ctrl w c
 switch focus to window: ctrl w (j,k,h,l)
 
-Search and Replace: :%s/foo/bar/gc % means across all lines, s means substitute, /foo is what to replace, 
+// Search and Replace: :%s/foo/bar/gc % means across all lines, s means substitute, /foo is what to replace, 
 	/bar is replacement, g means greedy or global, c means ask y/n for each substitution
 
 To find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then o to switch
@@ -13,10 +13,6 @@ To find matching tags (ex: closing div), type 'v' for visual mode, 'a + t', then
 // granular find and replace in the whole file
 gn: same as 'n', except that it will start visual mode and select the occurence.
 cgn: we do a change (c) on the next (selected) occurence.  
-
-// Search and Replace
-:s/foo/bar/gc
-g is replace all occurences, c is to confirm each change
 
 gf: go to file. When the cursor is on a file link, or directory link, 'gf' will take u to that file.
 ^: this will return you to the previous file.
