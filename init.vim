@@ -52,6 +52,7 @@ let g:coc_global_extensions = [
 	\ 'coc-git',
 	\ 'coc-html',
 	\ 'coc-htmlhint',
+	\ 'coc-java',
 	\ 'coc-json',
 	\ 'coc-prettier',
 	\ 'coc-vimlsp',
