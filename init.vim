@@ -1,4 +1,5 @@
 "  this is a comment
+
 " PLUG INS
 call plug#begin()
 
@@ -10,6 +11,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " gruvbox color scheme
 Plug 'morhetz/gruvbox'
+
+" GitHub Copilot
+Plug 'github/copilot.vim'
 
 " END PLUG INS
 call plug#end()
@@ -25,9 +29,6 @@ set shiftwidth=4
 colorscheme gruvbox
 " force gruvbox to have a transparent background
 autocmd VimEnter * hi Normal ctermbg=NONE guibg=NONE
-
-" change :FZF to CTRL P
-" nnoremap <silent> <C-P> :FZF<CR>
 
 " change :FZF to spacebar in normal mode
 nnoremap <silent> <space> :FZF<CR>
